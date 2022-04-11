@@ -5,10 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, NgbModule ],
-  declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, FormsModule, NgbModule],
+  declarations: [AppComponent, NavbarComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
