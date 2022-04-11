@@ -6,10 +6,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, NgbModule],
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [AppComponent, NavbarComponent, NavComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
